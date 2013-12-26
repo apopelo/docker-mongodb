@@ -4,7 +4,7 @@ MAINTAINER Andrey Popelo andrey@popelo.com
 
 
 # Install Mongodb
-ENV MONGODB_VERSION 2.0.0
+ENV MONGODB_VERSION 2.4.8
 ENV MONGODB mongodb-linux-x86_64-$MONGODB_VERSION
 ADD http://downloads.mongodb.org/linux/$MONGODB.tgz /opt/$MONGODB.tgz
 RUN tar -C /opt --extract --file /opt/$MONGODB.tgz
