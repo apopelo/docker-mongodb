@@ -20,4 +20,4 @@ EXPOSE 27017
 EXPOSE 28017
 
 # run mongod
-CMD ["/opt/mongodb/mongod", "--dbpath", "/data/db"]
+CMD ["/opt/mongodb/bin/mongod", "--dbpath", "/data/db"]
